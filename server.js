@@ -16,7 +16,7 @@ app.use (express.urlencoded ({ extended: true }));
 
 
 
-app.get ('./', (req, res) => {
+app.get ('/', (req, res) => {
     res.json({"message": "API Listening",
         "term": "Summer 2025", 
         "student": "Che Joseph Fuh",
